@@ -9,7 +9,15 @@ function App() {
         <footer>
           This project was coded by{" "}
           <a href="mailto:mim.tohidi@gmail.com">Mim Tohidi</a> and is
-          open-sourced on <a href="">GitHub</a>.
+          open-sourced on{" "}
+          <a
+            href="https://github.com/MimTohidi/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          .
         </footer>
       </div>
     </div>
