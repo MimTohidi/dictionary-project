@@ -16,7 +16,11 @@ export default function Photos(props) {
                   rel="noreferrer"
                   title="Original Photo"
                 >
-                  <img src={photo.src.medium} className="img-fluid" />
+                  <img
+                    src={photo.src.medium}
+                    className="img-fluid"
+                    alt="sunset"
+                  />
                 </a>
               </div>
             );
