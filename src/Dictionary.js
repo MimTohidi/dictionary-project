@@ -46,7 +46,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6">
             <section>
               {" "}
               <form onSubmit={handleSubmit}>
@@ -60,7 +60,7 @@ export default function Dictionary(props) {
 
             <Results results={results} />
           </div>
-          <div className="col-6">
+          <div className="col-lg-6">
             <Photos photos={photos} />
           </div>
         </div>
